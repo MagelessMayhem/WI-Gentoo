@@ -11,6 +11,7 @@ import flixel.system.FlxSound;
 import flixel.FlxG;
 import flxanimate.data.AnimationData;
 import flixel.FlxSprite;
+import flixel.animation.FlxAnimation;
 import flxanimate.animate.FlxAnim;
 import flxanimate.frames.FlxAnimateFrames;
 
