@@ -1,6 +1,6 @@
 package data;
 
-#if cpp
+#if desktop
 import cpp.ConstCharStar;
 import cpp.Native;
 import cpp.UInt64;
