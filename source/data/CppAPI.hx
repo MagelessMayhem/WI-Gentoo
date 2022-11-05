@@ -7,4 +7,5 @@ class CppAPI
 	{
 		return WindowsData.obtainRAM();
 	}
+	#end
 }
