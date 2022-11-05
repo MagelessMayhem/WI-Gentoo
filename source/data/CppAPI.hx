@@ -2,7 +2,7 @@ package data;
 
 class CppAPI
 {
-	#if cpp
+	#if desktop
 	public static function obtainRAM():Int
 	{
 		return WindowsData.obtainRAM();
