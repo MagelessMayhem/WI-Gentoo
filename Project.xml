@@ -99,5 +99,8 @@
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
 	<icon path="art/iconOG.png" />
-	
+	<haxedef name="hscriptPos" if="hscript" />
+	<target id="haxe" tool="linker" if="linux">
+		<lib name="/usr/lib64/libX11.so" if="linux"/>
+	</target>
 </project>
