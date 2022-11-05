@@ -373,7 +373,6 @@ class MainMenuState extends MusicBeatState
 				}, function()
 				{
 					#if cpp
-					CppAPI._setWindowLayered();
 
 					var numTween:NumTween = FlxTween.num(1, 0, 1, {
 						onComplete: function(twn:FlxTween)
@@ -382,12 +381,6 @@ class MainMenuState extends MusicBeatState
 						}
 					});
 
-					numTween.onUpdate = function(twn:FlxTween)
-					{
-						#if windows
-						CppAPI.setWindowOppacity(numTween.value);
-						#end
-					}
 					#else
 					FlxTween.tween(FlxG.camera, {alpha: 0}, 1, {
 						onComplete: function(twn:FlxTween)
