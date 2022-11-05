@@ -24,9 +24,6 @@ class Init extends FlxState
 	{
 		super.create();
 
-		#if cpp
-		CppAPI.darkMode();
-		#end
 
 		#if cpp
 		cpp.NativeGc.enable(true);
